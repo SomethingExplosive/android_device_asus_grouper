@@ -96,8 +96,6 @@
          to this list.  If this is empty, no parts of the host USB bus will be excluded.
     -->
     <string-array name="config_usbHostBlacklist">
-        <!--  
-   -->
         <item>/dev/bus/usb/001</item>
     </string-array>
 
@@ -129,7 +127,6 @@
         <item>10000</item>
         <item>30000</item>
     </integer-array>
-
 
     <!-- Array of output values for LCD backlight corresponding to the LUX values
          in the config_autoBrightnessLevels array.  This array should have size one greater
@@ -209,11 +206,8 @@
     <!-- Is the notification LED intrusive? Used to decide if there should be a disable option -->
     <bool name="config_intrusiveNotificationLed">false</bool>
 
-
     <!-- Base "touch slop" value used by ViewConfiguration as a
-         movement threshold where scrolling should begin.
-
-          -->
+         movement threshold where scrolling should begin. -->
     <dimen name="config_viewConfigurationTouchSlop">12dp</dimen>
 
     <!-- Separate software navigation bar required on this device. -->
